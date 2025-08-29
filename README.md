@@ -1,30 +1,47 @@
-# Fork of File upload platform
+# Dukyoung File - 간편하고 안전한 파일 공유 서비스
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+![Dukyoung File Banner](https://i.namu.wiki/i/ObQ4LgeNZBe9Mz-E8da2_QVnq2TP-xoSU0cNj9m3c5rnVv0k1ag1X9W9a28WTtUTeksCmHmOFhBjtyBrgR3k-Q.png) <!-- 필요 시 이미지 추가 -->
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/simwoochuls-projects/v0-fork-of-file-upload-platform)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/bfBA61pCHmZ)
+## 서비스 소개
 
-## Overview
+[Dukyoung File](https://file.dyhs.kr)은 덕영고등학교에서 제공하는 심플하면서도 강력한 파일 공유 플랫폼입니다. 사용자는 별도의 회원가입 없이도 간단하고 빠르게 파일을 업로드하고 공유할 수 있으며, 자동 삭제 및 보안 기능을 통해 안전한 파일 관리를 보장합니다.
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+- **자동 삭제 기능**: 업로드한 파일은 5분 후 자동으로 삭제되어 개인정보 보호와 저장 공간 절약을 동시에 실현합니다.
+- **보안 모드 지원**: 파일 암호화 및 검증 기능을 통해 중요한 데이터도 안심하고 전송할 수 있습니다.
+- **한 번에 여러 파일 업로드**: 일괄 업로드와 동시 처리 기능으로 업무 효율성을 극대화합니다.
+- **업로드 통계 & 분석**: 사용 현황과 데이터 분석 기능으로 파일 공유 현황을 체계적으로 관리할 수 있습니다.
+- **간편 UI**: 클릭 한 번으로 파일 선택 및 업로드가 가능하여 사용 편의성을 높였습니다.
 
-## Deployment
+## 주요 기능
 
-Your project is live at:
+| 기능명          | 설명                                      |
+| -------------- | --------------------------------------- |
+| 자동 삭제 시간    | 5분 후 업로드된 파일 자동 삭제                  |
+| 보안 모드        | 파일 암호화 및 전송 데이터 검증                   |
+| 일괄 업로드      | 다수 파일을 한꺼번에 업로드 가능                   |
+| 업로드 통계      | 사용량 및 파일 업로드 패턴 분석 제공                |
+| 빠른 파일 공유   | 간단하고 직관적인 UI로 누구나 쉽게 사용 가능          |
 
-**[https://vercel.com/simwoochuls-projects/v0-fork-of-file-upload-platform](https://vercel.com/simwoochuls-projects/v0-fork-of-file-upload-platform)**
+## 사용 방법
 
-## Build your app
+1. 서비스 접속: [https://file.dyhs.kr](https://file.dyhs.kr)
+2. 파일 선택 또는 드래그 앤 드롭
+3. 필요 시 보안 모드 활성화
+4. 업로드 버튼 클릭
+5. 공유 링크 발급 및 원하는 상대에게 공유
 
-Continue building your app on:
+## 기술 스택
 
-**[https://v0.app/chat/projects/bfBA61pCHmZ](https://v0.app/chat/projects/bfBA61pCHmZ)**
+- 프론트엔드: TypeScript, CSS, JavaScript
+- 백엔드: Firebase
+- 보안: 파일 암호화 알고리즘 및 안전한 데이터 검증 과정 적용
 
-## How It Works
+## 개발자 및 연락처
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+덕영고등학교 개발팀: NiceTop
+문의 및 제안: mistarcodm@gmail.com
+
+---
+
+덕영고 학생 및 교직원을 비롯한 모든 사용자가 쉽고 안전하게 파일을 주고받을 수 있도록 설계된 Dukyoung File 서비스에 많은 관심과 이용 부탁드립니다.
+
